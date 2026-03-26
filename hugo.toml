@@ -1,0 +1,40 @@
+baseURL = 'https://chulcode.github.io/'
+languageCode = 'ko'
+title = "ChulCode | AI 기획자의 기술 블로그"
+theme = 'PaperMod'
+paginate = 5
+enableRobotsTXT = true
+
+[params]
+  author = "Chul Kim"
+  description = "AI 기획자의 기술 성장 기록 — LLM, Agent, RAG 실습 노트"
+  keywords = ["AI", "LLM", "RAG", "Agent", "기술블로그"]
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+
+  [params.homeInfoParams]
+    Title = "안녕하세요 👋"
+    Content = "AI 기획자에서 AI 개발자로 성장하는 여정을 기록합니다."
+
+[menu]
+  [[menu.main]]
+    name = "글 목록"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "태그"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    name = "소개"
+    url = "/about/"
+    weight = 30
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
